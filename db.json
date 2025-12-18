@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jannatul Miskat Chowdhury",
+      "email": "jannatul.miskat@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Alex Dowson",
+      "email": "alexdson6@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "David Franklin",
+      "email": "nusrat@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Shawkat Imran Rumi",
+      "email": "shawkat.imran.sqa@gmail.com"
+    }
+  ],
+  "news": [
+  {
+    "id": "1",
+    "title": "Bangladesh Latest Crime Report: Major Arrests in Dhaka",
+    "body": "Law enforcement agencies in Dhaka have arrested several suspects following a series of organized crime operations. Authorities stated that these actions are part of an ongoing effort to reduce rising crime rates and ensure public safety across the capital.",
+    "author_id": 1,
+    "comments": [
+      {
+        "id": 1,
+        "text": "This crime report highlights the urgent need for stronger law enforcement.",
+        "user_id": 2,
+        "timestamp": "2025-12-04T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "text": "Hope these actions help reduce crime nationwide.",
+        "user_id": 3,
+        "timestamp": "2025-12-04T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Bangladesh Latest Crime Report: Investigation Ongoing",
+    "body": "Police are investigating multiple criminal incidents reported across different districts of Bangladesh. Officials confirmed that special task forces have been deployed to identify suspects and prevent further criminal activities.",
+    "author_id": 2,
+    "comments": []
+  },
+  {
+    "id": "5093",
+    "title": "Bangladesh Latest Crime Report: Financial Crimes Under Scrutiny",
+    "body": "Authorities have intensified investigations into large-scale financial crimes affecting banks and financial institutions in Bangladesh. Law enforcement agencies and regulators are working together to track illegal transactions, recover assets, and bring offenders to justice while ensuring the protection of innocent citizens.",
+    "author_id": 4,
+    "comments": [
+      {
+        "id": 1765117111330,
+        "text": "This crime report shows how serious financial crimes have become.",
+        "user_id": "2",
+        "timestamp": "2025-12-07T14:18:31.330Z"
+      },
+      {
+        "id": 1765117316258,
+        "text": "Strong action is needed to prevent future crimes.",
+        "user_id": "1",
+        "timestamp": "2025-12-07T14:21:56.258Z"
+      }
+    ]
+  }
+]
+}
