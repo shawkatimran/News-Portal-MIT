@@ -1,0 +1,67 @@
+# NewsPortal
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+
+## Development server
+
+To start a local development server, run:
+
+# News Portal — MIT (Shawkat Imran)
+
+Project overview
+- **Description:** A small Angular news-portal application that demonstrates creating, listing, viewing, editing and deleting news items. The project includes a simple mock backend (`db.json`) used during development.
+- **Purpose:** Course/assignment project for Web Tech demonstrating Angular routing, services, forms, and basic authentication flow.
+
+Key features
+- **News CRUD:** Create, read, update, and delete news posts from the UI.
+- **Routing:** Clean routes for list, detail, create and edit views.
+- **Auth (simple):** Login component + guarded routes.
+- **Mock backend:** `db.json` serves as a JSON mock API (commonly run with `json-server`).
+
+Tech stack
+- Angular (TypeScript)
+- Vitest for unit tests
+- json-server (recommended) as a local mock REST API
+
+Quick start (development)
+1. Install dependencies:
+```powershell
+npm install
+```
+2. Run the mock backend (in a separate terminal):
+```powershell
+npx json-server --watch db.json --port 3000
+```
+The mock API will be available at `http://localhost:3000` (adjust port if needed).
+3. Run the Angular dev server:
+```powershell
+ng serve --open
+```
+Open `http://localhost:4200` if the browser doesn't open automatically.
+
+Useful commands
+- Install: `npm install`
+- Dev server: `ng serve`
+- Build (production): `ng build --prod`
+- Run mock API: `npx json-server --watch db.json --port 3000`
+- Unit tests: `ng test`
+
+Notes about API
+- The mock backend exposes REST endpoints for the resources defined in `db.json` (for example `/news`). Adjust service base URLs in `src/app/app.config.ts` or the environment files if you change the API host/port.
+
+Resolving git / deployment
+- This repository was prepared for pushing to GitHub. If you need me to push it to a remote or create a new GitHub repo, tell me the repo name and visibility and I will perform the push (or provide the exact commands).
+
+Contributing
+- Feel free to open issues or submit PRs. For quick local changes, follow the development steps above.
+
+License & author
+- Author: Shawkat Imran
+- License: add a LICENSE file if you want a specific license (MIT recommended for assignments/projects).
+
+References
+- Angular: https://angular.io
+- json-server: https://github.com/typicode/json-server
+
+---
+If you want, I can also add a `package.json` script to run the mock backend and dev server together, or push this repository to your GitHub account now.
